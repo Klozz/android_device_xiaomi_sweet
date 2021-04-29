@@ -13,6 +13,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
+DERP_BUILDTYPE := Official
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_sweet
