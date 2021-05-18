@@ -138,6 +138,10 @@ TARGET_USES_MKE2FS := true
 -include $(LOCAL_PATH)/system_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    device/xiaomi/sweet
+	
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
